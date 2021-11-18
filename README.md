@@ -10,7 +10,7 @@ Este proyecto encuentra la ruta mas corta en el mapa de among us ***SKELD*** y t
 </div>
 
 # Avance 1 (Competencias).
-Este avance enseña la libreria sólo con dos datos: el nombre y el tiempo de juego en horas y ordena por orden alfabetico.
+Este avance crea el gps unicamente para el mapa Skeld.
 
 ## SICT0301B: Evalúa los componentes
 ### Presenta Casos de Prueba correctos y completos para todas las funciones y procedimientos del programa

@@ -1,0 +1,160 @@
+input: 1
+input: 2
+output:
+From Oxygen to Shields there are 6.3 seconds in distance.
+
+From Oxygen to Weapons there are 3.19 seconds in distance.
+
+From Oxygen to Navigation there are 4.07 seconds in distance.
+
+From Oxygen to Navigation there are 4.07 seconds in distance.
+
+From Navigation to Shields there are 5.45 seconds in distance.
+
+From Navigation to Weapons there are 5.01 seconds in distance.
+
+From Navigation to Oxygen there are 4.07 seconds in distance.
+
+From Navigation to Oxygen there are 4.07 seconds in distance.
+
+From MedBay to Cafeteria there are 5.02 seconds in distance.
+
+From MedBay to UpperEngine there are 4.04 seconds in distance.
+
+From Storage to Cafeteria there are 4.5 seconds in distance.
+
+From Storage to LowerEngine there are 7.64 seconds in distance.
+
+From Storage to Electrical there are 6.16 seconds in distance.
+
+From Storage to Admin there are 3.17 seconds in distance.
+
+From Storage to Shields there are 4.56 seconds in distance.
+
+From Storage to Communications there are 4.2 seconds in distance.
+
+From Electrical to LowerEngine there are 5.5 seconds in distance.
+
+From Electrical to Storage there are 6.16 seconds in distance.
+
+From Cafeteria to Weapons there are 4.27 seconds in distance.
+
+From Cafeteria to Admin there are 4.71 seconds in distance.
+
+From Cafeteria to Storage there are 4.5 seconds in distance.
+
+From Cafeteria to MedBay there are 5.02 seconds in distance.
+
+From Cafeteria to UpperEngine there are 6.22 seconds in distance.
+
+From Communications to Storage there are 4.2 seconds in distance.
+
+From Communications to Shields there are 3.1 seconds in distance.
+
+From Admin to Cafeteria there are 4.71 seconds in distance.
+
+From Admin to Storage there are 3.17 seconds in distance.
+
+From LowerEngine to UpperEngine there are 5.7 seconds in distance.
+
+From LowerEngine to Reactor there are 4.65 seconds in distance.
+
+From LowerEngine to Security there are 3.96 seconds in distance.
+
+From LowerEngine to Electrical there are 5.5 seconds in distance.
+
+From LowerEngine to Storage there are 7.64 seconds in distance.
+
+From Shields to Storage there are 4.56 seconds in distance.
+
+From Shields to Communications there are 3.1 seconds in distance.
+
+From Shields to Navigation there are 5.45 seconds in distance.
+
+From Shields to Oxygen there are 6.3 seconds in distance.
+
+From Shields to Weapons there are 6.98 seconds in distance.
+
+From Weapons to Cafeteria there are 4.27 seconds in distance.
+
+From Weapons to Shields there are 6.98 seconds in distance.
+
+From Weapons to Oxygen there are 3.19 seconds in distance.
+
+From Weapons to Navigation there are 5.01 seconds in distance.
+
+From UpperEngine to Cafeteria there are 6.22 seconds in distance.
+
+From UpperEngine to MedBay there are 4.04 seconds in distance.
+
+From UpperEngine to Security there are 3.96 seconds in distance.
+
+From UpperEngine to Reactor there are 4.65 seconds in distance.
+
+From UpperEngine to LowerEngine there are 5.7 seconds in distance.
+
+From Security to UpperEngine there are 3.96 seconds in distance.
+
+From Security to Reactor there are 3.04 seconds in distance.
+
+From Security to LowerEngine there are 3.96 seconds in distance.
+
+From Reactor to UpperEngine there are 4.65 seconds in distance.
+
+From Reactor to Security there are 3.04 seconds in distance.
+
+From Reactor to LowerEngine there are 4.65 seconds in distance.
+
+RESET
+
+input: 1
+input: 3
+output: Enter starting place's name
+input: Navigation
+output: Enter destination's name:
+input: Security
+output:
+Total time is: 19.46 seconds.
+The shortest path is through locations: Navigation  Weapons  Cafeteria  UpperEngine  Security
+
+RESET
+
+input: 1
+input: 3
+output: Enter starting place's name
+input: MedBay
+output: Enter destination's name:
+input: Cafeteria
+output:
+Total time is: 5.02 seconds.
+The shortest path is through locations: MedBay  Cafeteria
+
+RESET
+
+input: 1
+input: 3
+output: Enter starting place's name
+input: Oxygen
+output: Enter destination's name:
+input: Oxygen
+output: You are already there.
+
+RESET
+
+input: 1
+input: 3
+output: Enter starting place's name
+input: qwerty 
+output: Enter destination's name:
+input: MedBay
+output: A place like that doesnt exist
+
+RESET
+
+input: 1
+input: 3
+output: Enter starting place's name
+input: MedBay 
+output: Enter destination's name:
+input: qwerty
+output: 404 path not found

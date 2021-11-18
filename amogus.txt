@@ -1,0 +1,26 @@
+Cafeteria Weapons 4.27
+Cafeteria Admin 4.71
+Cafeteria Storage 4.5
+Cafeteria MedBay 5.02
+Cafeteria UpperEngine 6.22
+UpperEngine MedBay 4.04
+UpperEngine Security 3.96
+UpperEngine Reactor 4.65
+UpperEngine LowerEngine 5.7
+Reactor Security 3.04
+LowerEngine Reactor 4.65
+LowerEngine Security 3.96
+LowerEngine Electrical 5.5
+LowerEngine Storage 7.64
+Storage Electrical 6.16
+Storage Admin 3.17
+Storage Shields 4.56
+Storage Communications 4.2
+Shields Communications 3.1
+Shields Navigation 5.45
+Shields Oxygen 6.3
+Shields Weapons 6.98
+Weapons Oxygen 3.19
+Weapons Navigation 5.01
+Navigation Oxygen 4.07
+

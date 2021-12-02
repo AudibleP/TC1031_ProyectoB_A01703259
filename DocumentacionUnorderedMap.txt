@@ -1,0 +1,58 @@
+Documentacion de Unordered_Map
+
+Los unordered_map son contenedores que almacenaran elementos por una combinacion de datos, esta combinacion esta formada por un key-value y un valor mapeado. El key-value ayuda a encontrar en el mapa el valor mapeado. Estos dos valores puedes ser de cualquier tipo y definido por el usuario o valores predefinidos.
+Unordered_maps son implementados en base a Hashes (Por esto se considera una estructura de datos extra), donde el key-value se convierte en un indice de una tabla hash.
+Unordered_maps tiene 3 funciones principales, las cuales son busqueda, insercion y eliminacion. Estas en el peor de los casos es de O(1).
+
+Estos son todos los metodos de unordered_maps: (retrieved from: https://www.mygreatlearning.com/blog/unordered_map-in-cpp/)
+
+at() at() function in C++ unordered_map returns the reference to the value with the element as key k (public member function)
+operator[] Access element (public member function)
+begin() Returns an iterator that is pointing to the beginning in the container in the unordered_map container (public member function)
+end() Returns an iterator pointing to the end position past the last element in the container in the unordered_map container (public member function)
+cbegin() Return ‘const_iterator’ to beginning (public member function)
+cend() Return the const_iterator to end (public member function)
+bucket() Locate the bucket number where the element with the key k is placed in the map.(public member function)
+bucket_count () this is used to count the total no. of buckets in an unordered_map. No parameter is required to pass into this function.(public member function)
+max_bucket_count() It returns the maximum number of bucket (public member function)
+bucket_size () Returns number of elements(bucket) in each bucket of the unordered_map. (public member function)
+count() Count number of elements present in an unordered_map with a specific key.(public member function)
+equal_range() Return bounds of a range that includes all elements in the container with a key that compares equal to k.(public member function)
+find() Return iterator to the element (public member function)
+emplace() Construct and insert an element (public member function )
+emplace_hint() Construct and insert element with ‘hint’ (public member function )
+insert() Insert elements (public member function )
+erase() Erase elements (public member function )
+clear() Clear content (public member function )
+swap() Clear content (public member function )
+load_factor() Return the load factor (public member function)
+max_load_factor() Get or set the maximum load factor (public member function )
+rehash() Set the number of buckets (public member function )
+reserve() Request for a capacity change (public member function)
+hash_function() Get the hash function (public member type) 
+key_eq() Get the key equivalence predicate (public member type)
+get_alloocator() Get allocator (public member function)
+empty() Test whether the container is empty (public member function)
+size() Return the container size (public member function)
+max_size() Return the maximum size (public member function)
+
+Un ejemplo basico de unordered_map seria:
+
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+ 
+int main()
+{
+    unordered_map<string, int> umap;
+ 
+    umap["GeeksforGeeks"] = 10;
+    umap["Practice"] = 20;
+    umap["Contribute"] = 30;
+ 
+    for (auto x : umap)
+      cout << x.first << " " << x.second << endl;
+ 
+}
+
+Aqui se puede ver como la variable umap fue inicializada es pala el valor key es un string y para el valor mapeado es un int, despes en el for se usara auto para que x puede recibir cualquier tipo de dato y se usara .first y .second para declarar donde van los strings y donde van los ints

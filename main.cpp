@@ -1,3 +1,7 @@
+/*
+Se usara unordermaps como estructura extra
+*/
+
 #include <iostream>
 #include <fstream>
 #include "graph.h"

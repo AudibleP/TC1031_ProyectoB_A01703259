@@ -26,12 +26,12 @@ El algoritmo de grafos usado logra encontrar el mejor camino dependiendo de los 
 ### Implementa mecanismos para consultar información de las estructras correctos
 Se le el archivo amogus de manera correcta con ifstreams y se analiza los datos.
 
-#Avance 3 (Competencias)
+# Avance 3 (Competencias)
 Estructura extra
 
-##SEG0702A: Tecnologías de Vanguardia
-###Investiga e implementa un algoritmo o una estructura de datos que no se vió durante el curso.
+## SEG0702A: Tecnologías de Vanguardia
+### Investiga e implementa un algoritmo o una estructura de datos que no se vió durante el curso.
 La estructura investigada en este caso se puede encontrar en graph.h ya que aqui se uso ***unordered_map*** el cual es una estructura parecida a hashes, pero no fue vista en clase.
 
-###Describe cada algoritmo de la estructura (inserción, consulta, etc...) de forma clara y con ejemplos
+### Describe cada algoritmo de la estructura (inserción, consulta, etc...) de forma clara y con ejemplos
 Dentro de ***DocumentacionUnorderedMap.txt*** se encuntran las descripciones de ***unordered_map*** y una documentacion breve sobre el funcionamiento y conocimiento de esta estructura.

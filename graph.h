@@ -25,7 +25,7 @@ class Graph{
 public:
     unordered_map < string , vector < node > > maps; //Aqui se guarda el primer mapa con dos tipos de datos: string y vector
     void addEdge(string start, string finale, float sec);
-    void printMap();
+    string printMap();
     void shortestPath(string start, string finale);
 };
 
@@ -93,7 +93,7 @@ void Graph::addEdge(string start , string finale , float sec){ //Esta parte func
 };
 
 
-void Graph::printMap(){//Se encontro una manera para que el grafo y el unordermap trabajaran juntos para que se imprimiera de ida y regreso
+string Graph::printMap(){//Se encontro una manera para que el grafo y el unordermap trabajaran juntos para que se imprimiera de ida y regreso
     for (unordered_map< string , vector < node > >::iterator unmap = maps.begin() ; unmap != maps.end() ; unmap++){
         for(int i=0 ; i<unmap->second.size() ; i++){
             cout<<"From "<<unmap->first<<" to "<<unmap->second[i].place<<" there are "<<unmap->second[i].time<<" seconds in distance."<<endl<<endl;

@@ -35,7 +35,8 @@ La estructura investigada en este caso se puede encontrar en graph.h ya que aqui
 
 ### Describe cada algoritmo de la estructura (inserción, consulta, etc...) de forma clara y con ejemplos
 
-TL,DR (too long, didnt read): Los unordered_map varian de los hashes ya que usan una implementacion parecida a estos, la diferencia es que la estructura del unordered_map al 
+### TL,DR (too long, didnt read): 
+Los unordered_map varian de los hashes ya que usan una implementacion parecida a estos, la diferencia es que la estructura del unordered_map al 
 hash, es que el umap no tiene ningun porblema al crecer su estructura, ya que esta no ordena y tiene sus valores guardados en buckets de manera aleatoria, sus tres principales 
 funciones siendo search, insertion y detele, de las cuales las 3 tienen en su peor de los casos o(n), pero es su mayoria de aplicaciones es o(1).
 
@@ -50,17 +51,19 @@ a encontrar en el mapa el valor mapeado. Estos dos valores puedes ser de cualqui
 Unordered_maps son implementados en base a Hashes (Por esto se considera una estructura de datos extra), donde el key-value se convierte en un indice de una tabla hash.
 Unordered_maps tiene 3 funciones principales, las cuales son busqueda, insercion y eliminacion. Estas en el peor de los casos es de O(n).
 
-Estos son los metodos mas usados de unordered_maps: (retrieved from: https://www.mygreatlearning.com/blog/unordered_map-in-cpp/)
+### Estos son los metodos mas usados de unordered_maps: (retrieved from: https://www.mygreatlearning.com/blog/unordered_map-in-cpp/)
 
 
-find() Return iterator to the element (public member function), en el peor de los casos es o(n)
-insert() Insert elements (public member function ), en el peor de los casos es o(n)
-erase() Erase elements (public member function ), en el peor de los casos es o(n)
+find() Return iterator to the element (public member function), en el peor de los casos es o(n).
+
+insert() Insert elements (public member function ), en el peor de los casos es o(n).
+
+erase() Erase elements (public member function ), en el peor de los casos es o(n).
 
 
 
 
-Un ejemplo basico de unordered_map seria:
+### Un ejemplo basico de unordered_map seria:
 
 #include <iostream>
 #include <unordered_map>

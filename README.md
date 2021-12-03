@@ -58,23 +58,20 @@ insert() Insert elements (public member function ), en el peor de los casos es o
 
 erase() Erase elements (public member function ), en el peor de los casos es o(n)
 
+
 Un ejemplo basico de unordered_map seria:
 
 #include <iostream>
 #include <unordered_map>
 using namespace std;
- 
 int main()
 {
     unordered_map<string, int> umap;
- 
     umap["GeeksforGeeks"] = 10;
     umap["Practice"] = 20;
     umap["Contribute"] = 30;
- 
     for (auto x : umap)
       cout << x.first << " " << x.second << endl;
- 
 }
 
 Aqui se puede ver como la variable umap fue inicializada es para el valor key es un string y para el valor mapeado es un int, despes en el for se usara auto para que x puede 

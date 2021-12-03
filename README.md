@@ -34,4 +34,46 @@ Estructura extra
 La estructura investigada en este caso se puede encontrar en graph.h ya que aqui se uso ***unordered_map*** el cual es una estructura parecida a hashes, pero no fue vista en clase.
 
 ### Describe cada algoritmo de la estructura (inserción, consulta, etc...) de forma clara y con ejemplos
-Dentro de ***DocumentacionUnorderedMap.txt*** se encuntran las descripciones de ***unordered_map*** y una documentacion breve sobre el funcionamiento y conocimiento de esta estructura.
+
+TL,DR (too long, didnt read): Los unordered_map varian de los hashes ya que usan una implementacion parecida a estos, la diferencia es que la estructura del unordered_map al 
+hash, es que el umap no tiene ningun porblema al crecer su estructura, ya que esta no ordena y tiene sus valores guardados en buckets de manera aleatoria, sus tres principales 
+funciones siendo search, insertion y detele, de las cuales las 3 tienen en su peor de los casos o(n), pero es su mayoria de aplicaciones es o(1).
+
+<div>
+<p style = 'text-align:center;'>
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fjbseg.medium.com%2Fc-unordered-map-under-the-hood-9540cec4553a&psig=AOvVaw1mHPsBfYwSw0IDdrzN1T5G&ust=1638582819138000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiJ_O3CxvQCFQAAAAAdAAAAABAD" alt="JuveYell" width="900px">
+</p>
+</div>
+
+Los unordered_map son contenedores que almacenaran elementos por una combinacion de datos, esta combinacion esta formada por un key-value y un valor mapeado. El key-value ayuda 
+a encontrar en el mapa el valor mapeado. Estos dos valores puedes ser de cualquier tipo y definido por el usuario o valores predefinidos.
+Unordered_maps son implementados en base a Hashes (Por esto se considera una estructura de datos extra), donde el key-value se convierte en un indice de una tabla hash.
+Unordered_maps tiene 3 funciones principales, las cuales son busqueda, insercion y eliminacion. Estas en el peor de los casos es de O(n).
+
+Estos son los metodos mas usados de unordered_maps: (retrieved from: https://www.mygreatlearning.com/blog/unordered_map-in-cpp/)
+
+find() Return iterator to the element (public member function), en el peor de los casos es o(n)
+insert() Insert elements (public member function ), en el peor de los casos es o(n)
+erase() Erase elements (public member function ), en el peor de los casos es o(n)
+
+Un ejemplo basico de unordered_map seria:
+
+#include <iostream>
+#include <unordered_map>
+using namespace std;
+ 
+int main()
+{
+    unordered_map<string, int> umap;
+ 
+    umap["GeeksforGeeks"] = 10;
+    umap["Practice"] = 20;
+    umap["Contribute"] = 30;
+ 
+    for (auto x : umap)
+      cout << x.first << " " << x.second << endl;
+ 
+}
+
+Aqui se puede ver como la variable umap fue inicializada es para el valor key es un string y para el valor mapeado es un int, despes en el for se usara auto para que x puede 
+recibir cualquier tipo de dato y se usara .first y .second para declarar donde van los strings y donde van los ints

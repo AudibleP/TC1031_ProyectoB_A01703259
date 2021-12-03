@@ -53,7 +53,9 @@ Unordered_maps tiene 3 funciones principales, las cuales son busqueda, insercion
 Estos son los metodos mas usados de unordered_maps: (retrieved from: https://www.mygreatlearning.com/blog/unordered_map-in-cpp/)
 
 find() Return iterator to the element (public member function), en el peor de los casos es o(n)
+
 insert() Insert elements (public member function ), en el peor de los casos es o(n)
+
 erase() Erase elements (public member function ), en el peor de los casos es o(n)
 
 Un ejemplo basico de unordered_map seria:

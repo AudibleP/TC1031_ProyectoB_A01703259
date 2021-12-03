@@ -41,7 +41,7 @@ funciones siendo search, insertion y detele, de las cuales las 3 tienen en su pe
 
 <div>
 <p style = 'text-align:center;'>
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fjbseg.medium.com%2Fc-unordered-map-under-the-hood-9540cec4553a&psig=AOvVaw1mHPsBfYwSw0IDdrzN1T5G&ust=1638582819138000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPiJ_O3CxvQCFQAAAAAdAAAAABAD" alt="JuveYell" width="900px">
+<img src="https://miro.medium.com/max/2400/1*-BjbJwNd34nP6OYk2TbCdw.png" alt="JuveYell" width="900px">
 </p>
 </div>
 
